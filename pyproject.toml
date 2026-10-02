@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "marketing-attribution-lab"
+version = "0.1.0"
+description = "Compare six multi-touch attribution models, including a data-driven Markov chain model, on customer journeys."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Vishwajeet Kumbhar" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+attribution = "attribution.cli:main"
+
+[tool.setuptools]
+packages = ["attribution"]
