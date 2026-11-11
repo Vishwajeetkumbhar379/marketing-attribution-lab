@@ -2,6 +2,8 @@
 
 **Which channels actually drive sales? Six attribution models, side by side, on the same customer journeys.**
 
+![Real output from the sample data included in this repo](docs/demo.png)
+
 Most teams judge channels on last-click numbers from their ad platform. That systematically over-credits the channels that *close* (brand search, email, direct) and under-credits the ones that *start* the journey (creators, content, social). Budgets then move the wrong way.
 
 This lab runs five classic models and one **data-driven Markov chain model** on the same journeys and shows where they disagree.
